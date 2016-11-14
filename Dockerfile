@@ -7,4 +7,4 @@ RUN yum -y install ruby-devel
 RUN yum -y install git
 RUN yum -y install rubygems
 RUN gem install rest_client
-RUN gem install aws-sdk
+RUN gem install zlib
