@@ -1,10 +1,5 @@
-FROM keboola/base-php
+FROM bizztreat/docker-ruby-keboola
 
 MAINTAINER Jiri Tobolka <jiri.tobolka@bizztreat.com>
 
-RUN yum -y install ruby
-RUN yum -y install ruby-devel
-RUN yum -y install git
-RUN yum -y install rubygems
-RUN gem install rest_client
 RUN gem install zlib
