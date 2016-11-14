@@ -1,5 +1,6 @@
-FROM bizztreat/docker-ruby-keboola
+FROM bizztreat/docker-ruby-keboola-gd
 
 MAINTAINER Jiri Tobolka <jiri.tobolka@bizztreat.com>
 
-RUN sudo gem install zlib
+RUN gem install zlib
+RUN gem install aws-sdk
